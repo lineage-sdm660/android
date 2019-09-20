@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <!-- LineageOS additions -->
   <project path="android" name="LineageOS/android" />
   <!--<project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />-->
