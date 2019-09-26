@@ -132,4 +132,10 @@
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
+
+  <!-- Xiaomi Redmi Note 5 Pro Trees -->
+  <project path="device/xiaomi/whyred" name="lineage-sdm660/android_device_xiaomi_whyred" />
+  <project path="kernel/xiaomi/whyred" name="lineage-sdm660/android_kernel_xiaomi_whyred" />
+  <project path="vendor/xiaomi/whyred" name="lineage-sdm660/android_vendor_xiaomi_whyred" />
+
 </manifest>
