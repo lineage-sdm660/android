@@ -152,6 +152,10 @@
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
 
+  <!-- Required repos -->
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
+  <project path="device/qcom/sepolicy-legacy-um" name="lineage-sdm660/android_device_qcom_sepolicy-legacy-um" />
+
   <!-- Xiaomi Redmi Note 5 Pro Trees -->
   <project path="device/xiaomi/whyred" name="lineage-sdm660/android_device_xiaomi_whyred" />
   <project path="kernel/xiaomi/sdm660" name="lineage-sdm660/android_kernel_xiaomi_sdm660" />
